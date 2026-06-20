@@ -69,9 +69,7 @@ export function Footer() {
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
           <p>© 2025 Титан Крым. Все права защищены.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-foreground transition-colors">
-              Политика конфиденциальности
-            </a>
+            <a href="#" className="hover:text-foreground transition-colors">Главная</a>
             <a href="#" className="hover:text-foreground transition-colors">
               Условия использования
             </a>
