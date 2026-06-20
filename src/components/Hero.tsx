@@ -146,7 +146,7 @@ export function Hero() {
           >
             {"Ваш дом"}
             <br />
-            <span className="text-blue-300">{"у моря в Крыму"}</span>
+            <span className="text-blue-300">в Крыму</span>
           </h1>
         </div>
       </div>
