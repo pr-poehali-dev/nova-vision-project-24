@@ -3,9 +3,9 @@ import Icon from "@/components/ui/icon"
 
 const agents = [
   {
-    name: "Анна Соколова",
-    role: "Руководитель отдела продаж",
-    experience: "12 лет на рынке Крыма",
+    name: "Александр Бородин",
+    role: "Основатель Титан Крым",
+    experience: "Более 10 лет в недвижимости",
     phone: "+7 (978) 000-00-01",
     image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/files/9c9da91b-f023-4ad7-ba40-544af7fd6786.jpg",
   },
