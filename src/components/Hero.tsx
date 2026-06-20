@@ -20,7 +20,7 @@ export function Hero() {
         <p className="mt-8 text-lg text-white/70 max-w-md mx-auto">Подберём лучшую недвижимость с полным сопровождением сделки</p>
         <a
           href="#contact"
-          className="inline-block mt-10 px-8 py-4 bg-white text-foreground font-medium text-sm hover:bg-blue-300 hover:text-white transition-colors duration-300"
+          className="inline-block mt-10 px-8 py-4 bg-white font-medium text-sm hover:bg-blue-300 hover:text-white transition-colors duration-300 text-slate-900"
         >
           Подобрать жильё
         </a>
