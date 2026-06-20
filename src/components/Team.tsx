@@ -7,21 +7,7 @@ const agents = [
     role: "Основатель Титан Крым",
     experience: "Более 10 лет в недвижимости",
     phone: "+7 (978) 000-00-01",
-    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/files/9c9da91b-f023-4ad7-ba40-544af7fd6786.jpg",
-  },
-  {
-    name: "Дмитрий Орлов",
-    role: "Эксперт по новостройкам",
-    experience: "8 лет в недвижимости",
-    phone: "+7 (978) 000-00-02",
-    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/files/0a9e52dd-2f4d-4b2a-9e02-c9a941676c83.jpg",
-  },
-  {
-    name: "Мария Левина",
-    role: "Специалист по аренде",
-    experience: "6 лет с клиентами",
-    phone: "+7 (978) 000-00-03",
-    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/files/520308a8-7cb1-42bc-8af3-53fdae9a3d0b.jpg",
+    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/dc9e0d38-5168-42dc-aed1-a2d50376ac7c.jpg",
   },
 ]
 
@@ -50,11 +36,11 @@ export function Team() {
   }, [])
 
   return (
-    <section id="team" className="py-32 md:py-29 bg-secondary/50">
-      <div className="container mx-auto px-6 md:px-12">
-        <div className="max-w-3xl mb-16">
+    <section id="team" className="py-20 md:py-29 bg-secondary/50">
+      <div className="container mx-auto px-4 md:px-12">
+        <div className="max-w-3xl mb-12 md:mb-16">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Команда</p>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.1] tracking-tight mb-6 text-balance">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-medium leading-[1.1] tracking-tight mb-6 text-balance">
             Наши риелторы
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
@@ -62,7 +48,7 @@ export function Team() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 max-w-sm sm:max-w-md gap-8">
           {agents.map((agent, index) => (
             <div
               key={agent.name}

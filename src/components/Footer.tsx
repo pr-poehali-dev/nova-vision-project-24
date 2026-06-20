@@ -1,8 +1,8 @@
 export function Footer() {
   return (
     <footer className="py-16 md:py-24 border-t border-border">
-      <div className="container mx-auto px-6 md:px-12">
-        <div className="grid md:grid-cols-4 gap-12 mb-16">
+      <div className="container mx-auto px-4 md:px-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-12 md:mb-16">
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
@@ -19,11 +19,6 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-medium mb-4">Меню</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li>
-                <a href="#projects" className="hover:text-foreground transition-colors">
-                  Объекты
-                </a>
-              </li>
               <li>
                 <a href="#about" className="hover:text-foreground transition-colors">
                   О нас

@@ -1,7 +1,6 @@
 import { Header } from "../components/Header"
 import { Hero } from "../components/Hero"
 import { Philosophy } from "../components/Philosophy"
-import { Projects } from "../components/Projects"
 import { Expertise } from "../components/Expertise"
 import { Team } from "../components/Team"
 import { FAQ } from "../components/FAQ"
@@ -14,7 +13,6 @@ export default function Index() {
       <Header />
       <Hero />
       <Philosophy />
-      <Projects />
       <Expertise />
       <Team />
       <FAQ />
