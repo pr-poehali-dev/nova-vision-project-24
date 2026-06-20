@@ -70,7 +70,7 @@ export function Footer() {
           <p>© 2025 Титан Крым. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">Главная</a>
-            <a href="#" className="hover:text-foreground transition-colors">О нас</a>
+            <a href="#" className="hover:text-foreground transition-colors"></a>
           </div>
         </div>
       </div>
