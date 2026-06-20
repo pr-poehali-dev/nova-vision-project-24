@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Только проверенные объекты",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Каждая квартира проходит юридическую проверку. Вы получаете жильё с чистыми документами и без скрытых рисков.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Знаем Крым изнутри",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Работаем по всему полуострову — от Ялты до Севастополя. Подскажем лучшие районы под ваш бюджет и образ жизни.",
   },
   {
-    title: "Естественная динамика",
+    title: "Сопровождение под ключ",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Берём на себя показы, переговоры, оформление сделки и регистрацию. Вам остаётся только получить ключи.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Честность в каждой сделке",
+    description: "Никаких навязанных вариантов и скрытых комиссий. Мы заинтересованы, чтобы вы остались довольны на годы вперёд.",
   },
 ]
 
@@ -53,18 +53,18 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">О нас</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Недвижимость с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>заботой</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
               <img
-                src="/images/exterior.png"
-                alt="Архитектурный эскиз рабочего пространства"
-                className="opacity-90 relative z-10 w-auto"
+                src="https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/files/9e9b4568-543d-45a5-9aaf-e92a6663f11e.jpg"
+                alt="Жилой комплекс Титан Крым"
+                className="opacity-95 relative z-10 w-full object-cover rounded-sm"
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              «Титан Крым» — это команда, которая помогает купить, продать и арендовать жильё на полуострове. Мы превращаем сложную сделку в спокойный и понятный процесс.
             </p>
 
             {philosophyItems.map((item, index) => (
