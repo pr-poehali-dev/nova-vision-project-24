@@ -20,14 +20,14 @@ export function CallToAction() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+79780000000"
+              href="tel:+79790667090"
               className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300 group"
             >Позвонить для консультации</a>
             <a
-              href="tel:+79780000000"
+              href="tel:+79790667090"
               className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
             >
-              +7 (978) 000-00-00
+              +7 (979) 066-70-90
             </a>
           </div>
         </div>

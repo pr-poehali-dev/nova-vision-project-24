@@ -42,13 +42,13 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:info@titancrimea.ru" className="hover:text-foreground transition-colors">
-                  info@titancrimea.ru
+                <a href="mailto:titan-56@inbox.ru" className="hover:text-foreground transition-colors">
+                  titan-56@inbox.ru
                 </a>
               </li>
               <li>
-                <a href="tel:+79780000000" className="hover:text-foreground transition-colors">
-                  +7 (978) 000-00-00
+                <a href="tel:+79790667090" className="hover:text-foreground transition-colors">
+                  +7 (979) 066-70-90
                 </a>
               </li>
               <li>

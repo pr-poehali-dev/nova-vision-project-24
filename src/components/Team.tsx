@@ -6,7 +6,7 @@ const agents = [
     name: "Александр Бородин",
     role: "Основатель Титан Крым",
     experience: "Более 10 лет в недвижимости",
-    phone: "+7 (978) 000-00-01",
+    phone: "+7 (979) 066-70-90",
     image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/dc9e0d38-5168-42dc-aed1-a2d50376ac7c.jpg",
   },
 ]
