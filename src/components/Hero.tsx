@@ -17,7 +17,7 @@ export function Hero() {
           <br />
           <span className="text-cyan-200">в Крыму</span>
         </h1>
-        <p className="mt-8 text-lg text-slate-300/90 max-w-md mx-auto font-light drop-shadow-[0_1px_8px_rgba(0,0,0,0.8)]">Подберём лучшую недвижимость с полным сопровождением сделки</p>
+        <p className="tracking-[0.35em] uppercase text-cyan-300/80 font-light drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)] my-[18px]">Подберём лучшую недвижимость с полным сопровождением сделки</p>
         <a
           href="#contact"
           className="inline-block mt-10 px-8 py-4 bg-cyan-400/20 border border-cyan-300/50 text-cyan-100 font-medium text-sm hover:bg-cyan-300/30 hover:border-cyan-200 transition-all duration-300 backdrop-blur-sm"
