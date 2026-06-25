@@ -12,14 +12,14 @@ export function Hero() {
       <div className="relative z-10 flex flex-col items-center w-full">
 
         {/* Надпись сверху — прилегает к верхнему краю логотипа */}
-        <p className="text-xs sm:text-sm tracking-[0.45em] uppercase text-cyan-300/80 font-light drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)]"
+        <p className="text-xs sm:text-sm tracking-[0.45em] uppercase text-cyan-300/80 font-light drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)] my-[11px]"
           style={{ marginBottom: 'min(1.5vw, 10px)' }}>
           Агентство недвижимости
         </p>
 
         {/* Блок-заглушка под логотип на фото */}
         <div
-          className="flex flex-col items-center justify-end"
+          className="flex flex-col items-center justify-end my-[122px]"
           style={{ width: 'min(44vw, 420px)', height: 'min(44vw, 420px)' }}
         >
           {/* Кнопка между двумя белыми полосами — примерно 78% высоты блока */}
