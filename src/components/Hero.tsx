@@ -11,6 +11,7 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">
+        <div className="inline-flex flex-col items-center px-10 py-8 rounded-sm" style={{ background: 'rgba(10,15,30,0.35)', backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)' }}>
         <p className="text-sm tracking-[0.4em] uppercase text-cyan-300/80 mb-6 font-light">Агентство недвижимости</p>
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium text-white tracking-tight leading-[0.95] drop-shadow-[0_2px_24px_rgba(0,0,0,0.6)]">
           Ваш дом
@@ -24,6 +25,7 @@ export function Hero() {
         >
           Подобрать жильё
         </a>
+        </div>
       </div>
     </section>
   )
