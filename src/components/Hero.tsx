@@ -9,30 +9,32 @@ export function Hero() {
         />
       </div>
 
-      <div className="relative z-10 flex flex-col items-center w-full" style={{ paddingTop: '2vh' }}>
+      <div className="relative z-10 flex flex-col items-center w-full">
 
-        {/* Надпись сверху — над логотипом */}
-        <p className="text-xs sm:text-sm tracking-[0.45em] uppercase text-white/70 font-light mb-[2vw] sm:mb-6 drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)]">
+        {/* Надпись сверху — прилегает к верхнему краю логотипа */}
+        <p className="text-xs sm:text-sm tracking-[0.45em] uppercase text-cyan-300/80 font-light drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)]"
+          style={{ marginBottom: 'min(1.5vw, 10px)' }}>
           Агентство недвижимости
         </p>
 
-        {/* Пустое пространство — логотип на фото (~40vw квадрат) */}
+        {/* Блок-заглушка под логотип на фото */}
         <div
-          className="flex items-center justify-center"
+          className="flex flex-col items-center justify-end"
           style={{ width: 'min(44vw, 420px)', height: 'min(44vw, 420px)' }}
         >
-          {/* Кнопка — визуально между двумя белыми полосами под буквами "ТИТАН" */}
+          {/* Кнопка между двумя белыми полосами — примерно 78% высоты блока */}
           <a
             href="#contact"
-            className="inline-block px-8 py-3 bg-white/10 border border-white/60 text-white font-light text-sm tracking-[0.2em] uppercase hover:bg-white/20 hover:border-white transition-all duration-300 backdrop-blur-sm"
-            style={{ marginTop: 'min(20vw, 190px)' }}
+            className="inline-block px-8 py-3 bg-cyan-400/20 border border-cyan-300/50 text-cyan-100 font-medium text-sm tracking-[0.15em] uppercase hover:bg-cyan-300/30 hover:border-cyan-200 transition-all duration-300 backdrop-blur-sm"
+            style={{ marginBottom: 'min(5vw, 44px)' }}
           >
             Подобрать жильё
           </a>
         </div>
 
-        {/* Подпись снизу — под логотипом */}
-        <p className="text-xs sm:text-sm text-white/65 font-light mt-[2vw] sm:mt-6 tracking-wide drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)] text-center max-w-xs sm:max-w-sm px-4">
+        {/* Подпись снизу — прилегает к нижнему краю логотипа */}
+        <p className="text-xs sm:text-sm text-slate-300/90 font-light tracking-wide drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)] text-center max-w-xs sm:max-w-sm px-4"
+          style={{ marginTop: 'min(1.5vw, 10px)' }}>
           Подберём лучшую недвижимость с полным сопровождением сделки
         </p>
 
