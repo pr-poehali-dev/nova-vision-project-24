@@ -11,20 +11,29 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">
-        <div className="inline-flex flex-col items-center px-10 py-8 rounded-sm" style={{ background: 'rgba(10,15,30,0.35)', backdropFilter: 'blur(12px)', WebkitBackdropFilter: 'blur(12px)' }}>
-        <p className="text-sm tracking-[0.4em] uppercase text-cyan-300/80 mb-6 font-light">Агентство недвижимости</p>
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium text-white tracking-tight leading-[0.95] drop-shadow-[0_2px_24px_rgba(0,0,0,0.6)]">
-          Ваш дом
-          <br />
-          <span className="text-cyan-200">в Крыму</span>
-        </h1>
-        <p className="mt-8 text-lg text-slate-300/90 max-w-md mx-auto font-light drop-shadow-[0_1px_8px_rgba(0,0,0,0.8)]">Подберём лучшую недвижимость с полным сопровождением сделки</p>
-        <a
-          href="#contact"
-          className="inline-block mt-10 px-8 py-4 bg-cyan-400/20 border border-cyan-300/50 text-cyan-100 font-medium text-sm hover:bg-cyan-300/30 hover:border-cyan-200 transition-all duration-300 backdrop-blur-sm"
-        >
-          Подобрать жильё
-        </a>
+        <div className="relative inline-flex flex-col items-center px-16 py-12">
+          {/* дымка — радиальный градиент, плавно растворяется по краям */}
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background: 'radial-gradient(ellipse 80% 90% at 50% 50%, rgba(8,12,28,0.52) 0%, rgba(8,12,28,0.28) 55%, transparent 100%)',
+              filter: 'blur(18px)',
+              transform: 'scale(1.15)',
+            }}
+          />
+          <p className="relative text-sm tracking-[0.4em] uppercase text-cyan-300/80 mb-6 font-light">Агентство недвижимости</p>
+          <h1 className="relative text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium text-white tracking-tight leading-[0.95] drop-shadow-[0_2px_24px_rgba(0,0,0,0.5)]">
+            Ваш дом
+            <br />
+            <span className="text-cyan-200">в Крыму</span>
+          </h1>
+          <p className="relative mt-8 text-lg text-slate-300/90 max-w-md mx-auto font-light">Подберём лучшую недвижимость с полным сопровождением сделки</p>
+          <a
+            href="#contact"
+            className="relative inline-block mt-10 px-8 py-4 bg-cyan-400/20 border border-cyan-300/50 text-cyan-100 font-medium text-sm hover:bg-cyan-300/30 hover:border-cyan-200 transition-all duration-300 backdrop-blur-sm"
+          >
+            Подобрать жильё
+          </a>
         </div>
       </div>
     </section>
