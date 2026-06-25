@@ -16,9 +16,9 @@ export function Hero() {
           <div
             className="absolute inset-0 pointer-events-none"
             style={{
-              background: 'radial-gradient(ellipse 80% 90% at 50% 50%, rgba(8,12,28,0.52) 0%, rgba(8,12,28,0.28) 55%, transparent 100%)',
-              filter: 'blur(18px)',
-              transform: 'scale(1.15)',
+              background: 'radial-gradient(ellipse 80% 90% at 50% 50%, rgba(8,12,28,0.72) 0%, rgba(8,12,28,0.45) 55%, transparent 100%)',
+              filter: 'blur(20px)',
+              transform: 'scale(1.2)',
             }}
           />
           <p className="relative text-sm tracking-[0.4em] uppercase text-cyan-300/80 mb-6 font-light">Агентство недвижимости</p>
