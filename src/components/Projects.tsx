@@ -4,9 +4,9 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Квартиры у моря, Ялта",
+    title: "Квартиры у моря, Алушта",
     category: "от 45 м² · 1–3 комнаты",
-    location: "Ялта, первая линия",
+    location: "Алушта, первая линия",
     year: "от 8 500 000 ₽",
     image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/349b3bc7-696a-48da-8a52-40ce3ca2a12b.jpg",
   },
@@ -22,17 +22,9 @@ const projects = [
     id: 3,
     title: "Современный жилой комплекс",
     category: "от 38 м² · студии и 1–3 к.",
-    location: "Севастополь, новый район",
+    location: "Алушта, новый район",
     year: "от 5 200 000 ₽",
     image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/5ec70876-b695-4b8f-a951-f51389703719.jpg",
-  },
-  {
-    id: 4,
-    title: "Апартаменты с инфраструктурой",
-    category: "от 65 м² · 2–4 комнаты",
-    location: "Алушта, ул. Горная",
-    year: "от 11 800 000 ₽",
-    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/053aa0dc-a829-472f-a4b2-91cfc3bef8c7.jpg",
   },
 ]
 
