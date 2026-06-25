@@ -6,6 +6,8 @@ import { Team } from "../components/Team"
 import { FAQ } from "../components/FAQ"
 import { CallToAction } from "../components/CallToAction"
 import { Footer } from "../components/Footer"
+import { Projects } from "../components/Projects"
+import { PhotoBanner } from "../components/PhotoBanner"
 
 export default function Index() {
   return (
@@ -14,6 +16,8 @@ export default function Index() {
       <Hero />
       <Philosophy />
       <Expertise />
+      <Projects />
+      <PhotoBanner />
       <Team />
       <FAQ />
       <CallToAction />
