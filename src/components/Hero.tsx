@@ -11,7 +11,15 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">
-        <div className="inline-flex flex-col items-center px-16 py-12">
+        <div className="relative inline-flex flex-col items-center px-16 py-12">
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background: 'radial-gradient(ellipse 75% 85% at 50% 50%, rgba(5,10,25,0.38) 0%, rgba(5,10,25,0.15) 60%, transparent 100%)',
+              filter: 'blur(28px)',
+              transform: 'scale(1.3)',
+            }}
+          />
           <p className="text-sm tracking-[0.4em] uppercase text-cyan-300/80 mb-6 font-light">Агентство недвижимости</p>
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium text-white tracking-tight leading-[0.95] drop-shadow-[0_2px_24px_rgba(0,0,0,0.5)]">
             Ваш дом
