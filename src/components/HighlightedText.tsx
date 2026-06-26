@@ -35,7 +35,7 @@ export function HighlightedText({ children }: HighlightedTextProps) {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M0 8 Q50 2, 100 6 T200 8"
+          d="M0 8 L200 8"
           stroke="rgb(56 135 255)"
           strokeWidth="2"
           fill="none"
