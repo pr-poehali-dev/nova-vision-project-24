@@ -6,26 +6,26 @@
 
 @layer base {
   :root {
-    /* Титан Крым - сине-белая палитра */
-    --background: 210 40% 99%;
-    --foreground: 219 60% 14%;
-    --card: 210 40% 99%;
-    --card-foreground: 219 60% 14%;
-    --popover: 210 40% 99%;
-    --popover-foreground: 219 60% 14%;
-    --primary: 219 75% 22%;
-    --primary-foreground: 210 40% 99%;
-    --secondary: 211 50% 94%;
-    --secondary-foreground: 219 60% 18%;
-    --muted: 211 40% 93%;
-    --muted-foreground: 219 20% 42%;
-    --accent: 214 90% 52%;
-    --accent-foreground: 210 40% 99%;
+    /* Титан Крым - тёплая песочно-золотая палитра */
+    --background: 36 30% 97%;
+    --foreground: 24 35% 12%;
+    --card: 36 30% 97%;
+    --card-foreground: 24 35% 12%;
+    --popover: 36 30% 97%;
+    --popover-foreground: 24 35% 12%;
+    --primary: 24 40% 20%;
+    --primary-foreground: 36 30% 97%;
+    --secondary: 35 35% 92%;
+    --secondary-foreground: 24 35% 16%;
+    --muted: 35 25% 91%;
+    --muted-foreground: 24 15% 42%;
+    --accent: 38 85% 48%;
+    --accent-foreground: 36 30% 97%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 213 30% 88%;
-    --input: 213 30% 88%;
-    --ring: 214 80% 50%;
+    --destructive-foreground: 36 30% 97%;
+    --border: 33 25% 85%;
+    --input: 33 25% 85%;
+    --ring: 38 75% 48%;
     --radius: 0.25rem;
 
     --sidebar-background: 0 0% 98%;
