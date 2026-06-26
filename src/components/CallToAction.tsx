@@ -15,7 +15,7 @@ export function CallToAction() {
           </h2>
 
           <p className="text-primary-foreground/70 text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto">
-            Оставьте заявку — и наш риелтор подберёт квартиру под ваш бюджет и пожелания. Консультация бесплатна.
+            Оставьте заявку — и риелтор <span className="text-[rgb(56,135,255)] font-medium">Титан</span> подберёт квартиру под ваш бюджет и пожелания. Консультация бесплатна.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

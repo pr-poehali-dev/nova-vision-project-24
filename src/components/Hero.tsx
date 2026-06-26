@@ -20,13 +20,17 @@ export function Hero() {
               transform: 'scale(1.3)',
             }}
           />
-          <p className="text-sm tracking-[0.4em] uppercase text-cyan-300/80 mb-6 font-light">Агентство недвижимости</p>
+          <p className="text-sm tracking-[0.4em] uppercase text-cyan-300/80 mb-6 font-light">
+            <span className="text-[rgb(56,135,255)] font-medium">Титан</span> · Агентство недвижимости Крыма
+          </p>
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium text-white tracking-tight leading-[0.95] drop-shadow-[0_2px_24px_rgba(0,0,0,0.5)]">
             Ваш дом
             <br />
             <span className="text-cyan-200">в Крыму</span>
           </h1>
-          <p className="mt-8 text-lg max-w-md mx-auto font-light text-[#ffffff]">Подберём лучшую недвижимость с полным сопровождением сделки</p>
+          <p className="mt-8 text-lg max-w-md mx-auto font-light text-[#ffffff]">
+            <span className="text-[rgb(56,135,255)]">Титан</span> подберёт лучшую недвижимость с полным сопровождением сделки
+          </p>
           <a
             href="#contact"
             className="inline-block mt-10 px-8 py-4 bg-cyan-400/20 border border-cyan-300/50 text-cyan-100 font-medium text-sm hover:bg-cyan-300/30 hover:border-cyan-200 transition-all duration-300 backdrop-blur-sm"
