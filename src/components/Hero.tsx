@@ -29,7 +29,7 @@ export function Hero() {
             <span className="text-cyan-200">в Крыму</span>
           </h1>
           <p className="mt-8 text-lg max-w-md mx-auto font-light text-[#ffffff]">
-            <span className="text-[rgb(56,135,255)]">Титан</span> подберёт лучшую недвижимость с полным сопровождением сделки
+            <span className="text-lg font-semibold text-sky-300">ТИТАН</span> подберёт лучшую недвижимость с полным сопровождением сделки
           </p>
           <a
             href="#contact"
