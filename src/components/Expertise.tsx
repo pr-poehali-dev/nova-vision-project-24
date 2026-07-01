@@ -64,7 +64,7 @@ export function Expertise() {
             с недвижимостью
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            От первой консультации до получения ключей — <span className="text-[rgb(56,135,255)] font-medium">Титан</span> рядом на каждом этапе и берёт все хлопоты на себя.
+            От первой консультации до получения ключей — <span className="text-sky-500 font-medium">Титан</span> рядом на каждом этапе и берёт все хлопоты на себя.
           </p>
         </div>
 

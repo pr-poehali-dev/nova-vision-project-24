@@ -3,37 +3,37 @@ export function Hero() {
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/71312df1-38a1-4c19-ad5b-bcb5721d281a.jpg"
-          alt="Титан Недвижимость — вид на море"
+          src="https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/5a47c4c5-734b-4aa7-8be7-6e17e6087a53.jpg"
+          alt="ЖК Лучистое Алушта — Титан Недвижимость"
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-stone-900/50 via-stone-800/20 to-stone-900/65" />
+        <div className="absolute inset-0 bg-gradient-to-b from-sky-950/55 via-sky-900/20 to-sky-950/68" />
       </div>
 
-      <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">
-        <div className="relative inline-flex flex-col items-center px-16 py-12">
+      <div className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 text-center">
+        <div className="relative inline-flex flex-col items-center px-6 sm:px-12 md:px-16 py-10 sm:py-12">
           <div
             className="absolute inset-0 pointer-events-none"
             style={{
-              background: 'radial-gradient(ellipse 75% 85% at 50% 50%, rgba(5,10,25,0.38) 0%, rgba(5,10,25,0.15) 60%, transparent 100%)',
-              filter: 'blur(28px)',
-              transform: 'scale(1.3)',
+              background: 'radial-gradient(ellipse 80% 85% at 50% 50%, rgba(3,18,45,0.40) 0%, rgba(3,18,45,0.14) 60%, transparent 100%)',
+              filter: 'blur(32px)',
+              transform: 'scale(1.35)',
             }}
           />
-          <p className="text-sm tracking-[0.4em] uppercase text-cyan-300/80 mb-6 font-light">
-            <span className="text-[rgb(56,135,255)] font-medium">Титан</span> · Агентство недвижимости Крыма
+          <p className="relative text-xs sm:text-sm tracking-[0.35em] sm:tracking-[0.45em] uppercase text-sky-200/75 mb-5 sm:mb-6 font-light">
+            <span className="text-sky-300 font-semibold">Титан</span> · Агентство недвижимости Крыма
           </p>
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium text-white tracking-tight leading-[0.95] drop-shadow-[0_2px_24px_rgba(0,0,0,0.5)]">
+          <h1 className="relative text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light text-white tracking-tight leading-[1.05] drop-shadow-[0_3px_28px_rgba(0,0,0,0.55)]">
             Ваш дом
             <br />
-            <span className="text-cyan-200">в Крыму</span>
+            <span className="font-semibold text-sky-200">в Крыму</span>
           </h1>
-          <p className="mt-8 text-lg max-w-md mx-auto font-light text-[#ffffff]">
-Титан подберёт лучшую недвижимость с полным сопровождением сделки
+          <p className="relative mt-5 sm:mt-7 text-sm sm:text-base md:text-lg max-w-xs sm:max-w-sm md:max-w-md mx-auto font-light text-white/80 leading-relaxed">
+            Титан подберёт лучшую недвижимость с полным сопровождением сделки
           </p>
           <a
             href="#contact"
-            className="inline-block mt-10 px-8 py-4 bg-cyan-400/20 border border-cyan-300/50 text-cyan-100 font-medium text-sm hover:bg-cyan-300/30 hover:border-cyan-200 transition-all duration-300 backdrop-blur-sm"
+            className="relative inline-block mt-7 sm:mt-9 px-7 sm:px-8 py-3 sm:py-4 bg-sky-500/20 border border-sky-300/40 text-sky-100 font-medium text-xs sm:text-sm tracking-widest hover:bg-sky-400/28 hover:border-sky-200/65 transition-all duration-300 backdrop-blur-sm"
           >
             Подобрать жильё
           </a>

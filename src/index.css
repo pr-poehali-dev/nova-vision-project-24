@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,26 +6,26 @@
 
 @layer base {
   :root {
-    /* Титан Крым - сине-белая палитра */
-    --background: 210 40% 99%;
-    --foreground: 219 60% 14%;
-    --card: 210 40% 99%;
-    --card-foreground: 219 60% 14%;
-    --popover: 210 40% 99%;
-    --popover-foreground: 219 60% 14%;
-    --primary: 219 75% 22%;
-    --primary-foreground: 210 40% 99%;
-    --secondary: 211 50% 94%;
-    --secondary-foreground: 219 60% 18%;
-    --muted: 211 40% 93%;
-    --muted-foreground: 219 20% 42%;
-    --accent: 214 90% 52%;
-    --accent-foreground: 210 40% 99%;
+    /* Титан Крым — палитра под ЖК Лучистое: небо, море, белые фасады */
+    --background: 204 35% 98%;
+    --foreground: 210 55% 12%;
+    --card: 204 35% 98%;
+    --card-foreground: 210 55% 12%;
+    --popover: 204 35% 98%;
+    --popover-foreground: 210 55% 12%;
+    --primary: 210 65% 18%;
+    --primary-foreground: 204 40% 98%;
+    --secondary: 204 45% 93%;
+    --secondary-foreground: 210 55% 16%;
+    --muted: 204 38% 91%;
+    --muted-foreground: 210 22% 40%;
+    --accent: 200 88% 48%;
+    --accent-foreground: 204 40% 98%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-    --border: 213 30% 88%;
-    --input: 213 30% 88%;
-    --ring: 214 80% 50%;
+    --border: 204 28% 86%;
+    --input: 204 28% 86%;
+    --ring: 200 80% 48%;
     --radius: 0.25rem;
 
     --sidebar-background: 0 0% 98%;
@@ -89,7 +89,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Rubik", system-ui, sans-serif;
+    font-family: "Raleway", system-ui, sans-serif;
   }
 }
 

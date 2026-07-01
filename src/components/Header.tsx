@@ -34,7 +34,7 @@ export function Header() {
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
         <a href="/" className="flex items-center gap-2 group" onClick={scrollToTop}>
           <span className="text-xl font-semibold tracking-tight text-white">
-            <span className="text-[rgb(56,135,255)]">Титан</span> Крым
+            <span className="text-sky-300">Титан</span> Крым
           </span>
         </a>
 
@@ -49,7 +49,7 @@ export function Header() {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="hover:text-[rgb(56,135,255)] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 hover:after:w-full after:bg-[rgb(56,135,255)] after:transition-all after:duration-300 text-white"
+                className="hover:text-sky-300 transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 hover:after:w-full after:bg-sky-300 after:transition-all after:duration-300 text-white"
               >
                 {item.label}
               </a>
@@ -106,7 +106,7 @@ export function Header() {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="hover:text-[rgb(56,135,255)] transition-colors duration-300 text-white text-4xl font-light block"
+                  className="hover:text-sky-300 transition-colors duration-300 text-white text-4xl font-light block"
                   onClick={closeMobileMenu}
                 >
                   {item.label}
