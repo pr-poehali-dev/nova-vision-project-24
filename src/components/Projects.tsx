@@ -4,27 +4,19 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Квартиры у моря, Алушта",
-    category: "от 45 м² · 1–3 комнаты",
+    title: "Алушта, квартиры у моря",
+    category: "от 30 м² · 1–4 к. · первая линия",
     location: "Алушта, первая линия",
-    year: "от 8 500 000 ₽",
-    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/349b3bc7-696a-48da-8a52-40ce3ca2a12b.jpg",
+    year: "от 9 400 000 ₽",
+    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/a76c9aca-ad5f-418c-9c3b-045e8742ff34.jpg",
   },
   {
     id: 2,
-    title: "ЖК у набережной",
-    category: "от 52 м² · 1–2 комнаты",
-    location: "Симферополь, набережная",
-    year: "от 6 900 000 ₽",
-    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/2dfd2107-85b0-4fb5-a8fb-12a1620c1d79.jpg",
-  },
-  {
-    id: 3,
-    title: "Современный жилой комплекс",
-    category: "от 38 м² · студии и 1–3 к.",
-    location: "Алушта, новый район",
-    year: "от 5 200 000 ₽",
-    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/5ec70876-b695-4b8f-a951-f51389703719.jpg",
+    title: "ЖК бизнес-класса, Симферополь",
+    category: "от 39 м² · 1–3 к. · центр города",
+    location: "Симферополь, центр",
+    year: "от 8 700 000 ₽",
+    image: "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/5a47c4c5-734b-4aa7-8be7-6e17e6087a53.jpg",
   },
 ]
 
@@ -72,7 +64,7 @@ export function Projects() {
           </a>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
           {projects.map((project, index) => (
             <article
               key={project.id}
