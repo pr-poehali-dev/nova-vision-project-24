@@ -29,7 +29,6 @@ const projects = [
     location: "Алушта",
     price: "от 10 900 000 ₽",
     images: [
-      "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/b2b06e62-7d43-4990-abc3-548a5585c99e.jpg",
       "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/9c45f01c-5ff9-4851-bf40-b0bf7245d907.jpeg",
     ],
   },
