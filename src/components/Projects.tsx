@@ -4,6 +4,17 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
+    title: "Апартаменты на берегу моря",
+    category: "от 28 м² · 1–2 к.",
+    location: "Евпатория",
+    price: "от 7 500 000 ₽",
+    images: [
+      "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/49653390-f33d-40dd-8e2b-df3dfc19381a.jpg",
+    ],
+    featured: true,
+  },
+  {
+    id: 2,
     title: "Алушта, квартиры у моря",
     category: "от 30 м² · 1–4 к. · первая линия",
     location: "Алушта",
@@ -11,9 +22,10 @@ const projects = [
     images: [
       "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/b2b06e62-7d43-4990-abc3-548a5585c99e.jpg",
     ],
+    featured: false,
   },
   {
-    id: 2,
+    id: 3,
     title: "ЖК бизнес-класса, Симферополь",
     category: "от 39 м² · 1–3 к. · центр города",
     location: "Симферополь",
@@ -21,9 +33,10 @@ const projects = [
     images: [
       "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/2dfd2107-85b0-4fb5-a8fb-12a1620c1d79.jpg",
     ],
+    featured: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Курортный клуб, Алушта",
     category: "от 56 м² · 1–3 к.",
     location: "Алушта",
@@ -31,9 +44,10 @@ const projects = [
     images: [
       "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/9c45f01c-5ff9-4851-bf40-b0bf7245d907.jpeg",
     ],
+    featured: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Современные комплексы для жизни",
     category: "Новые районы",
     location: "Крым",
@@ -41,14 +55,15 @@ const projects = [
     images: [
       "https://cdn.poehali.dev/projects/ba1b6bef-ba3c-401b-b998-3f24ee27942c/bucket/5ec70876-b695-4b8f-a951-f51389703719.jpg",
     ],
+    featured: false,
   },
 ]
 
-function ProjectCard({ project, index, revealedImages, imageRef }: {
+function ProjectCard({ project, revealedImages, imageRef, wide = false }: {
   project: typeof projects[0]
-  index: number
   revealedImages: Set<number>
   imageRef: (el: HTMLDivElement | null) => void
+  wide?: boolean
 }) {
   const [activeImg, setActiveImg] = useState(0)
   const [hovered, setHovered] = useState(false)
@@ -64,11 +79,14 @@ function ProjectCard({ project, index, revealedImages, imageRef }: {
 
   return (
     <article
-      className="group cursor-pointer"
+      className={`group cursor-pointer ${wide ? "md:col-span-2" : ""}`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => { setHovered(false); setActiveImg(0) }}
     >
-      <div ref={imageRef} className="relative overflow-hidden aspect-[4/3] mb-6">
+      <div
+        ref={imageRef}
+        className={`relative overflow-hidden mb-6 ${wide ? "aspect-[16/7]" : "aspect-[4/3]"}`}
+      >
         {project.images.map((src, i) => (
           <img
             key={i}
@@ -102,7 +120,9 @@ function ProjectCard({ project, index, revealedImages, imageRef }: {
 
       <div className="flex items-start justify-between gap-4">
         <div>
-          <h3 className="text-xl font-medium mb-2 group-hover:underline underline-offset-4">{project.title}</h3>
+          <h3 className={`font-medium mb-2 group-hover:underline underline-offset-4 ${wide ? "text-2xl" : "text-xl"}`}>
+            {project.title}
+          </h3>
           <p className="text-muted-foreground text-sm">
             {project.category} · {project.location}
           </p>
@@ -161,9 +181,9 @@ export function Projects() {
             <ProjectCard
               key={project.id}
               project={project}
-              index={index}
               revealedImages={revealedImages}
               imageRef={(el) => { imageRefs.current[index] = el }}
+              wide={project.featured}
             />
           ))}
         </div>
